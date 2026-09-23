@@ -22,8 +22,12 @@ public class Seguro {
         } else{
             if (edad >= 18 && edad <= 21){
                 precio = 400;
-            }
-            System.out.println("El precio final es: " + precio);
+            
+        } else if (aCarnet>10){
+            precio = 270;
+
         }
+        }
+            System.out.println("El precio final es: " + precio);
     }
 }
