@@ -9,8 +9,7 @@ public class bucles {
         while (cont <= 25) {
             System.out.println("Cont = " + cont + "\t acu : " + acu);
             acu = acu + cont;
-            cont = cont + 1;
-            
+            cont += 1;  // cont++            
         }
         
     }
