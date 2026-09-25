@@ -9,9 +9,8 @@ public class eje4 {
         num1 = sc.nextInt();
         System.out.println("Introduce un numero real: ");
         num2 = sc.nextDouble();
-        System.out.printf("Decimal: %d, Octal: %05o\n", num1, num1);//DECIMAL Y OCTAL
+        System.out.printf("Decimal: %d, Octal: %05o, Hexadecimal: %X\n", num1, num1, num1);//DECIMAL Y OCTAL  falta hex
         System.out.printf("Real: %7.3f\n", num2);
-
         switch (num1) {
             case 1:
                 System.out.println("Lunes");
@@ -36,9 +35,10 @@ public class eje4 {
                 break;
         
             default:
-                System.out.println("Systam Error");
+                System.out.println("Systax Error");
                 break;
         }
+        sc.close();
     }
     
 }
