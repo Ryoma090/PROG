@@ -35,7 +35,7 @@ public class eje4 {
                 break;
         
             default:
-                System.out.println("Systax Error");
+                System.out.println("Syntax Error");
                 break;
         }
         sc.close();
