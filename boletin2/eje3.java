@@ -1,3 +1,4 @@
+package boletin2;
 import java.util.Scanner;
 
 public class eje3 {
@@ -13,7 +14,7 @@ public class eje3 {
             while (num1 >= cont) {
                 System.out.println("contador " + cont);
                 cont++;
-                suma = num1 + cont;//Rewvisar
+                suma = num1 + cont;//Revisar
                 System.out.println("acumulador : " + suma);
             }
         }

@@ -14,14 +14,14 @@ public class Eje6 {
             System.out.println("6.- Salir");
             System.out.println("Seleccione opción:");
             opcion = sc.nextInt();
-            switch (opcion) {
+            switch (opcion) {// añadir breaks
                 case 1:
                     System.out.println("Introduce un número entero");
                     int num1 = sc.nextInt();
                     double numCuadrado = num1 * num1;
                     System.out.printf("El cuadrado es: %.2f \n", numCuadrado);
                     System.out.println("----------------------------------------------------------");
-
+                    break;
                 case 2:
                     double numInv;
                     do {
@@ -38,18 +38,25 @@ public class Eje6 {
                     System.out.printf("La inversion es: %.4f \n", inversion);
 
                     System.out.println("----------------------------------------------------------");
+                    break;
 
                 case 3:
+                    int num2;
                     System.out.println("Introduce un número para saber su raíz");
-                    int num2 = sc.nextInt();
-                    if (num2 < 0) {
-                        System.out.println("No se puede calcular la raiz cuadrada de un número negativo");
-                    } else {
+                    num2 = sc.nextInt();
+                    do{
+                        num2= sc.nextInt();
+                        if (num2 < 0){
+                            System.out.println("No se puede calcular la raiz cuadrada de un número negativo");
+                        }
+                    }while (num2 < 0);
+                    
+                    
                         double num2Raiz = Math.sqrt(num2);
                         System.out.printf("La raiz cuandra es: %.3f \n", num2Raiz);
-                    }
-
+                    
                     System.out.println("----------------------------------------------------------");
+                    break;
                 case 4:
                     System.out.println("Introduce el primer numero entero: ");
                     int num3 = sc.nextInt();
@@ -58,6 +65,7 @@ public class Eje6 {
                     int operacion = num3 & num4;
                     System.out.printf("Resultado: %x \n", operacion);
                     System.out.println("----------------------------------------------------------");
+                    break;
                 case 5:
                     System.out.println("Introduce el primer numero entero: ");
                     int num5 = sc.nextInt();
@@ -66,6 +74,7 @@ public class Eje6 {
                     int operacion2 = num5 | num6;
                     System.out.printf("Resultado: %x \n", operacion2);
                     System.out.println("----------------------------------------------------------");
+                    break;
                 case 6:
                     System.out.println("Hasta pronto");
                     break;
@@ -76,5 +85,4 @@ public class Eje6 {
         } while (opcion != 6);
 
     }
-
 }
