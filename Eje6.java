@@ -14,7 +14,7 @@ public class Eje6 {
             System.out.println("6.- Salir");
             System.out.println("Seleccione opción:");
             opcion = sc.nextInt();
-            switch (opcion) {// añadir breaks
+            switch (opcion) {//TODO case 3
                 case 1:
                     System.out.println("Introduce un número entero");
                     int num1 = sc.nextInt();
@@ -45,18 +45,18 @@ public class Eje6 {
                     System.out.println("Introduce un número para saber su raíz");
                     num2 = sc.nextInt();
                     do{
-                        num2= sc.nextInt();
+                        
                         if (num2 < 0){
                             System.out.println("No se puede calcular la raiz cuadrada de un número negativo");
                         }
-                    }while (num2 < 0);
+                    }while (num2 > 0);{
                     
                     
                         double num2Raiz = Math.sqrt(num2);
                         System.out.printf("La raiz cuandra es: %.3f \n", num2Raiz);
                     
                     System.out.println("----------------------------------------------------------");
-                    break;
+                    }break;
                 case 4:
                     System.out.println("Introduce el primer numero entero: ");
                     int num3 = sc.nextInt();

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Eje8",
+            "request": "launch",
+            "mainClass": "Eje8",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
             "name": "Eje7",
             "request": "launch",
             "mainClass": "Eje7",

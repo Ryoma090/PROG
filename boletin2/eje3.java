@@ -14,7 +14,7 @@ public class eje3 {
             while (num1 >= cont) {
                 System.out.println("contador " + cont);
                 cont++;
-                suma = num1 + cont;//Revisar
+                suma = num1 + cont;// TODO Revisar
                 System.out.println("acumulador : " + suma);
             }
         }
