@@ -1,6 +1,6 @@
 
 
-public class Eje12 {
+public class Ejerc12 {
 
     public static void main(String[] args) {
         System.out.println("a)Los numeros del 50 al 100");
