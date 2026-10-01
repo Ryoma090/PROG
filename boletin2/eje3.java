@@ -5,7 +5,7 @@ public class eje3 {
     public static void main(String[] args) {
         int num1;
         int cont = 1;
-        int suma;
+        int suma =0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Dime el primer numero: ");
         num1 = sc.nextInt();
@@ -14,9 +14,9 @@ public class eje3 {
             while (num1 >= cont) {
                 System.out.println("contador " + cont);
                 cont++;
-                suma = num1 + cont;// TODO Revisar
-                System.out.println("acumulador : " + suma);
+                suma= suma + cont; 
             }
+            System.out.println("acumulador : " + suma);
         }
     }
 }

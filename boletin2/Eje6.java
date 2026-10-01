@@ -1,3 +1,5 @@
+package boletin2;
+
 import java.util.Scanner;
 
 public class Eje6 {
@@ -14,7 +16,7 @@ public class Eje6 {
             System.out.println("6.- Salir");
             System.out.println("Seleccione opción:");
             opcion = sc.nextInt();
-            switch (opcion) {//TODO case 3
+            switch (opcion) { 
                 case 1:
                     System.out.println("Introduce un número entero");
                     int num1 = sc.nextInt();
@@ -42,21 +44,21 @@ public class Eje6 {
 
                 case 3:
                     int num2;
-                    System.out.println("Introduce un número para saber su raíz");
-                    num2 = sc.nextInt();
-                    do{
-                        
-                        if (num2 < 0){
+
+                    do {
+                        System.out.println("Introduce un número para saber su raíz");
+                        num2 = sc.nextInt();
+                        if (num2 < 0) {
                             System.out.println("No se puede calcular la raiz cuadrada de un número negativo");
                         }
-                    }while (num2 > 0);{
-                    
-                    
-                        double num2Raiz = Math.sqrt(num2);
-                        System.out.printf("La raiz cuandra es: %.3f \n", num2Raiz);
-                    
+                    } while (num2 < 0); {
+
+                    double num2Raiz = Math.sqrt(num2);
+                    System.out.printf("La raiz cuandra es: %.3f \n", num2Raiz);
+
                     System.out.println("----------------------------------------------------------");
-                    }break;
+                }
+                    break;
                 case 4:
                     System.out.println("Introduce el primer numero entero: ");
                     int num3 = sc.nextInt();

@@ -21,6 +21,7 @@ public class Eje7 {
                 cont++;
             }
         } while (num != 0);
+        
         if (cont > 0) {
             media = suma / cont;
             System.out.println("Has introducido " + cont + " números");

@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Eje14",
+            "request": "launch",
+            "mainClass": "Eje14",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Eje13",
+            "request": "launch",
+            "mainClass": "Eje13",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Eje10",
+            "request": "launch",
+            "mainClass": "boletin2.Eje10",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Eje11",
+            "request": "launch",
+            "mainClass": "boletin2.Eje11",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Eje9",
+            "request": "launch",
+            "mainClass": "boletin2.Eje9",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Eje13",
+            "request": "launch",
+            "mainClass": "boletin2.Eje13",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Eje6",
+            "request": "launch",
+            "mainClass": "boletin2.Eje6",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Eje8",
+            "request": "launch",
+            "mainClass": "boletin2.Eje8",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Eje12",
+            "request": "launch",
+            "mainClass": "Eje12",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Eje11",
+            "request": "launch",
+            "mainClass": "Eje11",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Ej10",
+            "request": "launch",
+            "mainClass": "Ej10",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Eje9",
+            "request": "launch",
+            "mainClass": "Eje9",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
             "name": "Eje8",
             "request": "launch",
             "mainClass": "Eje8",
