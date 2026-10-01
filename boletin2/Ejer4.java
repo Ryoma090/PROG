@@ -1,7 +1,7 @@
 package boletin2;
 import java.util.Scanner;
 
-public class eje4 {
+public class Ejer4 {
     public static void main(String[] args) {
         int num1;
         double num2;

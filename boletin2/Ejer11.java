@@ -1,5 +1,5 @@
 package boletin2;
-public class Eje11 {
+public class eje11 {
     public static void main(String[] args) {
        
         int suma=0;

@@ -1,6 +1,6 @@
 package boletin2;
 
-public class eje2 {
+public class Ejer2 {
 
     public static void main(String[] args) {
         int cont1 = 1;
