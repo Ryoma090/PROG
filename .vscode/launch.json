@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejerc10",
+            "request": "launch",
+            "mainClass": "boletin2.Ejerc10",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Ejer9",
+            "request": "launch",
+            "mainClass": "boletin2.Ejer9",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "Ejerc14",
+            "request": "launch",
+            "mainClass": "Ejerc14",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
             "name": "Eje14",
             "request": "launch",
             "mainClass": "Eje14",

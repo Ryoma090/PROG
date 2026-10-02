@@ -9,7 +9,7 @@ public class Ejer9 {
         int numFinish;
         int cont = 0;
         int num;
-        int mayor = Integer.MIN_VALUE; //TODO -2147483648TODO revisar referencia
+        int mayor = Integer.MIN_VALUE; // -2147483648 TODO revisar referencia
         System.out.println("Cuantos números deseas introducir?: ");
         numFinish = sc.nextInt();
         do {

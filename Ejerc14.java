@@ -1,35 +1,81 @@
+
 import java.util.Scanner;
 
 public class Ejerc14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num;
-        int num1 = 0;
-        int cont = 5;
 
-        do{
-            System.out.println("Jugador 1.- Introduce un número del 1 al 100");
-            num = sc.nextInt();
+        int num;
+        int num1;
+        int cont;
+        
+        int repetir;
+
+        do {
+
+            
+            do {
+                System.out.println("Jugador 1.- Introduce un número del 1 al 100");
+                num = sc.nextInt();
+
+                if (num < 1 || num > 100) {
+                    System.out.println("Número incorrecto, debe estar entre 1 y 100");
+                }
+
+            } while (num < 1 || num > 100);
+
+
+            
             System.out.println("\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
-            do{
-                if(cont > 0){
-                System.out.println("Jugador 2._ (Tienes " + cont + " intentos) Adivina que número que es: ");
-                num1= sc.nextInt();
-                if(num1 > num){
+
+
+            
+            cont = 5;
+            num1 = 0;
+
+            do {
+
+                
+                do {
+                    System.out.println("Jugador 2.- (Te quedan " + cont + " intentos)");
+                    System.out.println("Adivina el número:");
+                    num1 = sc.nextInt();
+
+                    if (num1 < 1 || num1 > 100) {
+                        System.out.println("Número incorrecto, debe estar entre 1 y 100");
+                    }
+
+                } while (num1 < 1 || num1 > 100);
+
+
+                
+                if (num1 == num) {
+                    System.out.println("Has acertado");
+                } else if (num1 > num) {
                     System.out.println("El número es menor");
-                }else{
-                    System.out.println("El numero es mayor");
+                    cont--;
+                } else {
+                    System.out.println("El número es mayor");
+                    cont--;
                 }
-                }else{
-                    System.out.println("Perdiste");
-                    break;
-                }
-                cont--;
-            }while(num1 != num && num1 > 0);
+
+            } while (num1 != num && cont > 0);
+
+
             
+            if (num1 != num) {
+                System.out.println("Perdiste, el número era: " + num);
+            }
+
+
             
-        }while(num > 1 || num < 100);
-        System.out.println("El numero esta fuera del rango");
+            System.out.println("Quieres jugar otra partida? 1 = si / 0 = so");
+            repetir = sc.nextInt();
+
+        } while (repetir == 1);
+
+        System.out.println("Fin");
+
+        sc.close();
     }
-    
-}//Quieres jugar otra partida?
+}
