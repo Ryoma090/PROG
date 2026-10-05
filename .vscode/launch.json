@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejerc16",
+            "request": "launch",
+            "mainClass": "Ejerc16",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
             "name": "Ejerc15",
             "request": "launch",
             "mainClass": "Ejerc15",
