@@ -17,5 +17,6 @@ public class Ejer2 {
         for(int cont3 = 0; cont3<=50 ; cont3 = cont3 + 2){
             System.out.printf("%-5s%5s\n", "contFor: " , cont3);
         }
+        
     }
 }
