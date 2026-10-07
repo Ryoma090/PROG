@@ -7,15 +7,16 @@ public static void main(String[] args) {
     int var1 = 0;
     int var2 = 0;
     Scanner sc = new Scanner(System.in);
-    System.out.println("Introduce 2 numeros");//TODO revisar
+    System.out.println("Introduce 2 numeros"); 
     num1 = sc.nextInt(); //6
     num2 = sc.nextInt(); //2
 
-    var1 = num1;
-    var2= num2;
+    // var2= num2;
     
-    num1=  var2;
-    num2 = var1;
+    var1 = num1;
+    num1=  num2;
+    num2=var1;
+    //num2 = var1;
 
 
 

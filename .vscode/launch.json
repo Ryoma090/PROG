@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejer1",
+            "request": "launch",
+            "mainClass": "Ejer1",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
+            "name": "EjemplosFunciones",
+            "request": "launch",
+            "mainClass": "apuntes.EjemplosFunciones",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
             "name": "Ejerc16",
             "request": "launch",
             "mainClass": "Ejerc16",
