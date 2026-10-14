@@ -18,5 +18,16 @@ public class Ejer3 {
 
         return "El número es: " + num;
     }
+    public static int superficieCilindro(int radio, int altura) {
+        
+
+        double superficie = 2 * Math.PI * radio * altura;
+        return (int) superficie;
+    }
+    public static String mostrarDato(String area, num2) {
+        System.out.printf();
+    
+    }
+    
     
 }
