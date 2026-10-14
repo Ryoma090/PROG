@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejer2",
+            "request": "launch",
+            "mainClass": "Ejer2",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
             "name": "Gusano",
             "request": "launch",
             "mainClass": "Gusano",
