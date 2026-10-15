@@ -1,3 +1,4 @@
+import java.nio.channels.Pipe.SourceChannel;
 import java.util.Scanner;
 public class Ejer3 {
 
@@ -24,10 +25,14 @@ public class Ejer3 {
         double superficie = 2 * Math.PI * radio * altura;
         return (int) superficie;
     }
-    public static String mostrarDato(String area, num2) {
-        System.out.printf();
+    public static String mostrarDato(String area, int num2) {
+        System.out.printf("%.3f", num2 );
     
     }
-    
+    public static void main(String[] args) {
+        System.out.println("Introduce el radio del cilindro: " + pideNumero("positivo", 6 ));
+
+
+    }
     
 }

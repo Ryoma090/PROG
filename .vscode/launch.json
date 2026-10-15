@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EscrituraArchivos",
+            "request": "launch",
+            "mainClass": "EscrituraArchivos",
+            "projectName": "PROG_1941e84c"
+        },
+        {
+            "type": "java",
             "name": "Ejer2",
             "request": "launch",
             "mainClass": "Ejer2",
